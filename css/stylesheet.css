@@ -1,0 +1,165 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+nav div ul li a, footer ul li a{
+  font-weight: 400;
+  font-size:0.875rem;
+  color:#505F98; 
+  text-decoration-line: none;
+}
+footer ul {
+  list-style-type:none;
+}
+footer ul li a{
+  color:#929ECC
+}
+nav div ul li a:hover{
+  color:#111B47;
+  text-decoration-line:underline;
+}
+nav div ul li a:hover, footer ul li a:hover{
+  color:#404762;
+  text-decoration-line:underline;
+}
+header {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+}
+.navbar-brand{
+  font-weight: 900;
+  font-size:1.625rem;
+  color:#37447E;
+}
+#mainNavbar div ul{
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+}
+.standard-btn, .standard-btn-2:hover{
+  background-color:#121c47;
+  color:white;
+  text-decoration-line: none;
+}
+.standard-btn{
+  border: none;
+  font-size:0.75rem;
+  font-weight:500;
+}
+.standard-btn:hover{
+  color:white;
+  background-color:#000000;
+  text-decoration-line: none;
+}
+.standard-btn-2{
+  color:#121c47;
+  border: 1px solid #121c47;
+  font-size:0.75rem;
+  font-weight:500;
+  text-decoration-line: none;
+  width:177px;
+  text-align: center;
+}
+.navbar-toggler, .navbar-toggler:focus {
+  box-shadow: none;
+  border: none;
+}
+
+.hero-desc{
+  padding:2rem 0 1rem;
+}
+h1,h2,h3{
+  font-weight:500;
+  font-size:2rem;
+  line-height: 2rem;
+}
+h3{
+  font-size:1rem;
+}
+p{
+  font-weight:400;
+  font-size:1rem;
+  line-height: 1.25rem;
+  color:#505F98;
+}
+
+.pricing  {
+
+  background-image: url('../media/Rectangle.svg');
+  background-repeat: no-repeat;
+  background-size: cover;     
+  background-position: center; 
+  padding:5rem 0;
+}
+.pricing div div div h2{
+  font-size:50px;
+  color:#222F65;
+}
+.pricing div div div p{
+  color:#37447E;
+}
+h4{
+  font-size:14px;
+  color:#5D6970;
+}
+footer{
+  background-color: #E7ECFF;
+}
+ .hero-img {
+    width: 400px;
+    height:400px;
+  }
+
+@media (min-width: 576px) {
+  section.login > img{
+  width:500px;
+  height:500px;
+}
+
+}
+@media (min-width: 768px) {
+
+  .hero-overlay{
+  width:600px;
+  height:600px;
+}
+    section.login > img{
+  width:350px;
+  height:350px;
+}
+.services img{
+   width: 300px;
+    height:300px;
+}
+
+section.hero{
+  padding-bottom: 3rem;
+  position: static;
+}
+}
+
+@media (min-width: 992px) {
+  section.hero{
+    padding: 5rem 0 3rem;
+  }
+  .hero-img {
+    width: 500px;
+    height:500px;
+  }
+
+    section.login > img{
+  width:500px;
+  height:500px;
+}
+.services img{
+   width: 500px;
+    height:500px;
+}
+
+}
+
+@media (min-width: 1450px) {
+  section.hero{
+    position: relative;
+  }
+ 
+
+}
